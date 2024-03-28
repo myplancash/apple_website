@@ -1,0 +1,1 @@
+export const navLists = ['Phones', 'Macbooks', 'Tablets'];
