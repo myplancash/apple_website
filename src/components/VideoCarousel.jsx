@@ -3,7 +3,7 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
 import { useEffect, useRef, useState } from "react";
-
+ 
 import { hightlightsSlides } from "../constants";
 import { pauseImg, playImg, replayImg } from "../utils";
 
@@ -75,7 +75,7 @@ const VideoCarousel = () => {
             // set the background color of the progress bar
             gsap.to(span[videoId], {
               width: `${currentProgress}%`,
-              backgroundColor: "white",
+              backgroundColor: "#f0f0f0",
             });
           }
         },
@@ -87,7 +87,7 @@ const VideoCarousel = () => {
               width: "12px",
             });
             gsap.to(span[videoId], {
-              backgroundColor: "#afafaf",
+              backgroundColor: "#9c9c9c",
             });
           }
         },
