@@ -15,7 +15,7 @@ const Features = () => {
         start: '-10% bottom',
       },
       onComplete: () => {
-        videoRef.current.play();
+           videoRef.current.play();
       }
     })
 
